@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+button {
+	background: inherit;
+	border: none;
+}
+
+body {
+	background: #111;
+	color: #fff;
+	font-family: Chalkduster, "Jazz LET", Helvetica, Arial, sans-serif;
+	height: 100vh;
+}
+
+header {
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 16px;
+}
+
+h1 {
+	font-size: 3em;
+	text-align: center;
+}
+
+#round-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 80px;
+}
+
+h2 {
+	font-size: 2.5em;
+	margin: 24px;
+	text-align: center;
+}
+
+.info {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	gap: 64px;
+	justify-content: center;
+}
+
+.container__box {
+	font-size: 6em;
+	padding: 32px;
+	background: #222;
+	border-radius: 16px;
+}
+
+.container__box:hover {
+	background: #333;
+	cursor: pointer;
+}
+
+.player {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+}
+
+#player-box {
+	font-size: 6em;
+	padding: 32px 16px;
+	margin: 0 32px 8px 32px;
+}
+
+#player-para {
+	font-size: 1.5em;
+}
+
+#player-score {
+	font-size: 2em;
+}
+
+.computer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+}
+
+#computer-box {
+	font-size: 6em;
+	padding: 32px 16px;
+	margin: 0 32px 8px 32px;
+}
+
+#computer-para {
+	font-size: 1.5em;
+}
+
+#computer-score {
+	font-size: 2em;
+}
+
+.player-selection {
+	margin: 32px;
+}
+
+footer {
+	background: #000;
+	padding: 16px;
+	font-size: 1.3em;
+	text-align: center;
+}
