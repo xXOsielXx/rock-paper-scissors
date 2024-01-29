@@ -1,6 +1,18 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	background: #111;
+	color: #fff;
+	font-family: Chalkduster, "Jazz LET", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -11,13 +23,6 @@ a {
 button {
 	background: inherit;
 	border: none;
-}
-
-body {
-	background: #111;
-	color: #fff;
-	font-family: Chalkduster, "Jazz LET", Helvetica, Arial, sans-serif;
-	height: 100vh;
 }
 
 header {
@@ -38,6 +43,7 @@ h1 {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 80px;
+	overflow: hidden;
 }
 
 h2 {
@@ -112,12 +118,53 @@ h2 {
 }
 
 .player-selection {
-	margin: 32px;
+	margin: 32px 0 188px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	justify-tracks: flex-end;
+	width: 100%;
 	background: #000;
 	padding: 16px;
 	font-size: 1.3em;
 	text-align: center;
+}
+
+.attribution {
+	margin-top: 16px;
+}
+
+.attribution a {
+	text-decoration: underline;
+}
+
+@media (max-width: 400px) {
+	#player-box {
+		font-size: 4em;
+	}
+
+	#player-para {
+		font-size: 1.2em;
+	}
+
+	#player-score {
+		font-size: 1.5em;
+	}
+
+	#computer-box {
+		font-size: 4em;
+	}
+
+	#computer-para {
+		font-size: 1.2em;
+	}
+
+	#computer-score {
+		font-size: 1.5em;
+	}
 }
