@@ -1,3 +1,8 @@
-# rock-paper-scissors
+# Rock, Paper, Scissors
 
-The Rock Paper Scissors project made from TOP. This is my first project made with javascript, and my first game too. Enjoy playing this classic game in your web browser!
+Live web page:
+https://xxosielxx.github.io/rock-paper-scissors
+
+This project was made for [The Odin Project](https://www.theodinproject.com/about) in the [Admin Dashboard assignment](https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css/lessons/admin-dashboard). 
+
+Enjoy playing this classic game in your web browser!
