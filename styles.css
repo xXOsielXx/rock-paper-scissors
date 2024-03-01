@@ -12,7 +12,7 @@ html {
 body {
 	background: #111;
 	color: #fff;
-	font-family: Chalkduster, "Jazz LET", Helvetica, Arial, sans-serif;
+	font-family: Arial, sans-serif;
 }
 
 a {
@@ -34,6 +34,7 @@ header {
 }
 
 h1 {
+	font-family: cursive, Arial, sans-serif;
 	font-size: 3em;
 	text-align: center;
 }
@@ -118,9 +119,26 @@ h2 {
 }
 
 .player-selection {
-	margin: 32px 0 188px;
+	max-width: 619px;
+	margin: 32px auto 188px;
 	display: flex;
-	flex-wrap: wrap;
+	justify-content: start;
+	overflow: auto;
+}
+
+/* Slider */
+
+.swiper {
+  width: 80%;
+  max-width: 400px;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
@@ -133,6 +151,11 @@ footer {
 	padding: 16px;
 	font-size: 1.3em;
 	text-align: center;
+	overflow: hidden;
+}
+
+#folio-link {
+	font-size: 1.5em;
 }
 
 .attribution {

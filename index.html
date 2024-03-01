@@ -5,6 +5,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Rock Paper Scissors</title>
+	<link
+	  rel="stylesheet"
+	  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+	/>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
 	<link rel="stylesheet" href="styles.css" type="text/css">
 	<script src="javascript.js" type="text/javascript" defer></script>
 	
@@ -30,16 +35,38 @@
 			</div>
 		</div>
 
-		<div class="container player-selection">
+		<div class="swiper container player-selection">
+
+			<!-- Wrapper -->
+			<div class="swiper-wrapper">
+			  <!-- Slides -->
+			  	<div class="swiper-slide">
+			  		<button id="rock"><div class="container__box">✊</div></button>
+			  	</div>
+			  	<div class="swiper-slide">
+			  		<button id="paper"><div class="container__box">✋</div></button>
+			  	</div>
+			  	<div class="swiper-slide">
+			  		<button id="scissors"><div class="container__box">✌</div></button>
+			  	</div>
+			</div>
+
+			<!-- Navigation buttons -->
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+
+		</div>
+
+		<!-- <div class="container player-selection">
 			<button id="rock"><div class="container__box">✊</div></button>
 			<button id="paper"><div class="container__box">✋</div></button>
 			<button id="scissors"><div class="container__box">✌</div></button>
-		</div>
+		</div> -->
 	</div>
 
 	<footer>
-		<a href="https://xxosielxx.github.io/osez-folio">Copyright © Osiel Hernández</a>
-		<p class="attribution">Design was inspired by: <br>
+		<a id="folio-link" href="https://xxosielxx.github.io/osez-folio">Visit my portfolio</a>
+		<p class="attribution">Design was based in: <br>
 			<a href="https://michalosman.github.io/rock-paper-scissors/">https://michalosman.github.io/rock-paper-scissors/</a>
 		</p>
 	</footer>

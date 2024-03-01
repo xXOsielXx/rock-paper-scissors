@@ -143,5 +143,12 @@ function main() {
 	});
 }
 
-
-main();
+new Swiper(".swiper", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  freemode: {
+  	enabled: true
+  }
+});
