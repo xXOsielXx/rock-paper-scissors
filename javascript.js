@@ -152,3 +152,5 @@ new Swiper(".swiper", {
   	enabled: true
   }
 });
+
+main()
